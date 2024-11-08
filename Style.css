@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+.cabecalho, .meio, .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.molotov {
+    margin-top: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.tex-molo {
+    font-family: "Jaini", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px;
+    align-items: flex-start;
+    color: rgb(3, 3, 3); /* Cor do texto para melhorar o contraste */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombras para destacar */
+}
+
+.tipe_form{
+    border-radius: 8px;
+    height: 20px;
+}
+.titulo {
+    padding: 5px;
+    font-family: "Jaini", sans-serif;
+}
+
+.enviar {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Cor do texto para melhorar o contraste */
+    padding: 20px;
+    font-family: "Jaini", sans-serif;
+}

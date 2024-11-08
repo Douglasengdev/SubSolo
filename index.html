@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;1,900&family=Jaini&display=swap');
+    </style>
+    <title>SubSolo</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo"> <img src="Logo.svg" alt="Logotipo"></div>
+    </header>
+
+    <main class="meio"> 
+
+        <div class="molotov"> <img src="./molo.svg" alt="Imagem Molotov"></div>
+        <p class="tex-molo">Camisa OverSized Coquetel molotov</p>
+
+        <div class="molotov"> <img src="./listrada.svg" alt="Imagem Listrada"></div>
+        <p class="tex-molo">Polatos</p>
+
+        <form class="formulario" action="">
+            <p class="titulo" >Entre em contato</p>
+
+            <label class="titulo" for="name">Nome</label>
+
+            <input class="tipe_form" type="text" id="name">
+
+            <label class="titulo" for="email">E-mail</label>
+
+            <input class="tipe_form" type="email" id="email">
+            <label class="titulo" for="numero">Número</label>
+            <input class="tipe_form" type="text" id="numero">
+
+            <label class="titulo" for="camisa">Escolha a camisa</label>
+            <select class="tipe_form" id="camisa">
+                <option value="escolher">Selecionar</option>
+                <option value="Polatos">Camisa Polatos</option>
+                <option value="molotov">Camisa OverSized Coquetel molotov</option>
+            </select>
+            <input class="enviar" type="button" onclick="alert1()" value="Enviar"/>
+        </form>
+
+    </main>
+
+    <footer class="final">
+        <p>Faça parte da melhor</p>
+    </footer>
+
+</body>
+</html>
